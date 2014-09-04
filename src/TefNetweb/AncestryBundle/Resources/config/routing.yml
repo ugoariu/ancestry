@@ -1,0 +1,16 @@
+tefnetweb_ancestry_homepage:
+        pattern:  /
+        defaults: { _controller: TefNetwebAncestryBundle:Default:index }
+TefNetwebAncestryBundle_ancestry_birth:
+    resource: "@TefNetwebAncestryBundle/Resources/config/routing/ancestry_birth.xml"
+    prefix:   /birth
+TefNetwebAncestryBundle_ancestry_marriage:
+    resource: "@TefNetwebAncestryBundle/Resources/config/routing/ancestry_marriage.xml"
+    prefix:   /marriage
+TefNetwebAncestryBundle_ancestry_death:
+    resource: "@TefNetwebAncestryBundle/Resources/config/routing/ancestry_death.xml"
+    prefix:   /death
+
+
+
+

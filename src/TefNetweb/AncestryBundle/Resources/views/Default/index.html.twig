@@ -1,0 +1,41 @@
+{% extends '::base.html.twig' %}
+{% block title %}Ancestry{% endblock %}
+{% block head_style %}
+    {{ parent() }}
+    {% stylesheets
+    'bundles/tefnetwebancestry/css/datagrid.css'
+    'bundles/tefnetwebancestry/css/datagrid-searchpanel.css'
+    'bundles/tefnetwebancestry/css/recordlist.css'
+    output='css/whole.css' %}
+    <link rel="stylesheet" href="{{ asset_url }}"/>
+    {% endstylesheets %}
+{% endblock head_style %}
+ {% block head_script %}
+     {% javascripts '../components/jquery/jquery.js'  output='js/wholejq.js' %}
+     <script type="text/javascript" src="{{ asset_url }}"></script>
+     {% endjavascripts %}
+ {% endblock head_script %}
+{% block navbar %}
+    {% embed '@MopaBootstrap/Navbar/navbar.html.twig' with { fixedTop: true, inverse: false } %}
+        {% block brand %}
+            <a class="navbar-brand" href="{{ path('tefnetweb_ancestry_homepage') }}" tabindex="-2">Ancestry</a>
+        {% endblock brand %}
+
+        {% block menu %}
+            {{ mopa_bootstrap_menu('TefNetwebAncestryBundle:Builder:mainMenu') }}
+        {% endblock menu %}
+    {% endembed %}
+{% endblock navbar %}
+{% block page_header %}
+    <br/>
+    <div class="page-header">
+        <h1>{% block headline %}Ancestry{% endblock headline %}</h1>
+    </div>
+{% endblock page_header %}
+  {% block content_content %}
+      <strong>Ancestry ... </strong>
+  {% endblock content_content %}
+ {% block footer %}
+     <br/><br/>
+     <div class="row"><p>&copy;2014 <!--  a href="" target="_blank">-->Ugo Ariu<!--  /a>--> </p></div>
+ {% endblock footer %}

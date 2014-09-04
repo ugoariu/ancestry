@@ -1,0 +1,366 @@
+Back to the list: Torna indietro alla Lista
+list: Lista
+List: Lista
+show: dettaglio
+Show: Dettaglio
+edit: modifica
+Edit: Modifica
+delete: elimina
+Delete: Elimina
+Create a new entry: Crea nuovo record
+Actions: Azioni
+creation: creazione
+update: aggiorna
+Update: Aggiorna
+Create: Crea
+Back: Indietro
+Reset: Reimposta
+#operatori della apy/datagrid
+eq: ug (uguale)
+neq: div (diverso da)
+lt: min (minore)
+lte: min.ug (minore o uguale)
+gt: mag (maggiore)
+gte: mag.ug (maggiore o uguale)
+btw: com (compreso tra)
+btwe: com.u (compreso tra|ug)
+like: con (contiene)
+nlike: ncon (non contiene)
+llike: fin (finisce per)
+rlike: cmc (comincia per)
+isNull: vuo (è vuoto)
+isNotNull: nvuo (non è vuoto)
+true: vero
+false: falso
+No Records!: Nessun Record corrisponde al criterio impostato!
+No Data!: Non ci sono dati!
+Page: Pagina
+of %count%: di %count%
+%count% Results: %count% Record |%count% Record
+, Display: , Visualizza
+Items per page: Elementi per Pagina
+Search: Cerca
+(optional): (opzionale)
+(required): (richiesto)
+Bad credentials: Credenziali Utente Errate
+Ancestry Birth list: Registro Nascite lista
+Ancestry Birth show: Registro Nascite dettaglio
+Ancestry Birth creation: Registro Nascite crea
+Ancestry Birth edit: Registro Nascite modifica
+Ancestry Death edit: Registro Decessi modifica
+Ancestry Death list: Registro Decessi lista
+Ancestry Death creation: Registro Decessi crea
+Ancestry Death show: Registro Decessi dettaglio
+Ancestry Marriage edit: Registro Matrimoni modifica
+Ancestry Marriage list: Registro Matrimoni lista
+Ancestry Marriage creation: Registro Matrimoni crea
+Ancestry Marriage show: Registro Matrimoni dettaglio
+Ancestry Marriage: Registro Matrimoni
+Ancestry Birth: Registro Nascite
+Ancestry Death: Registro Morti
+Yes: Si
+No: No
+N/A: N.D.
+#menu
+Births: Nascite
+Deaths: Decessi
+Marriages: Matrimoni
+#
+Male: Maschio
+Female: Femmina
+#choice fields
+-- not set --: -- non impostato --
+Not Married: Celibe/Nubile
+Married: Sposato/a
+Widowed: Vedovo/a
+Divorced: Divorziato/a
+#bith exitus
+Live Born: Nato Vivo
+Still Born: Nato Morto
+Spontaneous Abortion: Aborto Spontaneo
+#
+birthDate: Data di Nascita
+Birth date: Data di Nascita
+Birthdate: Data di Nascita
+birthParish: Parrocchia di Nascita
+Birth parish: Parrocchia di Nascita
+Birthparish: Parrocchia di Nascita
+birthPlace: Luogo Nascita
+Birth place: Luogo Nascita
+Birthplace: Luogo Nascita
+birthTime: Orario Nascita
+Birth time: Orario Nascita
+Birthtime: Orario Nascita
+deathDate: Data del decesso
+Death date: Data del Decesso
+Deathdate: Data del Decesso
+DeathPlace: Luogo del decesso
+Death place: Luogo del Decesso
+Deathplace: Luogo del Decesso
+deathTime: Orario decesso
+Death time: Orario Decesso
+Deathtime: Orario Decesso
+fatherAge: Età del Padre
+Father age: Età del Padre
+Fatherage: Età del Padre
+fatherName2: Nome2 del Padre
+Father name2: Nome2 del Padre
+Fathername2: Nome2 del Padre
+fatherName3: Nome3 del Padre
+Father name3: Nome3 del Padre
+Fathername3: Nome3 del Padre
+fatherName: Nome del Padre
+Father name: Nome del Padre
+Fathername: Nome del Padre
+fatherProfession: Professione del Padre
+Father profession: Professione del Padre
+Fatherprofession: Professione del Padre
+fatherResidence: Residenza del Padre
+Father residence: Residenza del Padre
+Fatherresidence: Residenza del Padre
+fatherStatus: Stato civile del Padre
+Father status: Stato civile del Padre
+Fatherstatus: Stato civile del Padre
+fatherSurname: Cognome del Padre
+Father surname: Cognome del Padre
+Fathersurname: Cognome del Padre
+husbandAge: Età dello Sposo
+Husband age: Età dello Sposo
+Husbandage: Età dello Sposo
+husbandBirthDate: Data Nascita dello Sposo
+Husband birth date: Data Nascita dello Sposo
+Husbandbirthdate: Data Nascita dello Sposo
+husbandBirthPlace: Luogo di Nascita dello Sposo
+Husband birth place: Luogo di Nascita dello Sposo
+Husbandbirthplace: Luogo di Nascita dello Sposo
+husbandFatherAge: Età del Padre dello Sposo
+Husband father age: Età del Padre dello Sposo
+Husbandfatherage: Età del Padre dello Sposo
+husbandFatherName2: Nome2 del Padre dello Sposo
+Husband father name2: Nome2 del Padre dello Sposo
+Husbandfathername2: Nome2 del Padre dello Sposo
+husbandFatherName3: Nome3 del Padre dello Sposo
+Husband father name3: Nome3 del Padre dello Sposo
+Husbandfathername3: Nome3 del Padre dello Sposo
+husbandFatherName: Nome del Padre dello Sposo
+Husband father name: Nome del Padre dello Sposo
+Husbandfathername: Nome del Padre dello Sposo
+husbandFatherProfession: Professione Padre dello Sposo
+Husband father profession: Professione Padre dello Sposo
+Husbandfatherprofession: Professione Padre dello Sposo
+husbandFatherStatus: Stato civile del Padre dello Sposo
+Husband father status: Stato civile del Padre dello Sposo
+Husbandfatherstatus: Stato civile del Padre dello Sposo
+husbandFatherSurname: Cognome deel Padre dello Sposo
+Husband father surname: Cognome deel Padre dello Sposo
+Husbandfathersurname: Cognome deel Padre dello Sposo
+husbandMotherAge: Età Madre dello Sposo
+Husband mother age: Età Madre dello Sposo
+Husbandmotherage: Età Madre dello Sposo
+husbandMotherName2: Nome2 Madre dello Sposo
+Husband mother name2: Nome2 Madre dello Sposo
+Husbandmothername2: Nome2 Madre dello Sposo
+husbandMotherName3: Nome3 Madre dello Sposo
+Husband mother name3: Nome3 Madre dello Sposo
+Husbandmothername3: Nome3 Madre dello Sposo
+husbandMotherName: Nome Madre dello Sposo
+Husband mother name: Nome Madre dello Sposo
+Husbandmothername: Nome Madre dello Sposo
+husbandMotherProfession: Professione Madre dello Sposo
+Husband mother profession: Professione Madre dello Sposo
+Husbandmotherprofession: Professione Madre dello Sposo
+husbandMotherStatus: Stato civile Madre dello Sposo
+Husband mother status: Stato civile Madre dello Sposo
+Husbandmotherstatus: Stato civile Madre dello Sposo
+husbandMotherSurname: Cognome Madre dello Sposo
+Husband mother surname: Cognome Madre dello Sposo
+Husbandmothersurname: Cognome Madre dello Sposo
+husbandName2: Nome2 Sposo
+Husband name2: Nome2 Sposo
+Husbandname2: Nome2 Sposo
+husbandName3: Nome3 Sposo
+Husband name3: Nome3 Sposo
+Husbandname3: Nome3 Sposo
+husbandName: Nome Sposo
+Husband name: Nome Sposo
+Husbandname: Nome Sposo
+husbandParish: Parrocchia dello Sposo
+Husband parish: Parrocchia dello Sposo
+Husbandparish: Parrocchia dello Sposo
+husbandProfession: Professione dello Sposo
+Husband profession: Professione dello Sposo
+Husbandprofession: Professione dello Sposo
+husbandResidence: Residenza dello Sposo
+Husband residence: Residenza dello Sposo
+Husbandresidence: Residenza dello Sposo
+husbandStatus: Stato civile dello Sposo
+Husband status: Stato civile dello Sposo
+Husbandstatus: Stato civile dello Sposo
+husbandSurname: Cognome dello Sposo
+Husband surname: Cognome dello Sposo
+Husbandsurname: Cognome dello Sposo
+Id: Id
+IsFatherDead: Il Padre è Deceduto?
+Is father dead: Il Padre è Deceduto?
+Isfatherdead: Il Padre è Deceduto?
+IsMotherDead: La Madre è deceduta?
+Is mother dead: La Madre è deceduta?
+Ismotherdead: La Madre è deceduta?
+marriageDate: Data matrimonio
+Marriage date: Data matrimonio
+Marriagedate: Data matrimonio
+marriageParish: Parrocchia del matrimonio
+Marriage parish: Parrocchia del matrimonio
+Marriageparish: Parrocchia del matrimonio
+marriagePlace: Luogo del matrimonio
+Marriage place: Luogo del matrimonio
+Marriageplace: Luogo del matrimonio
+marriageTime: Orario del matrimonio
+Marriage time: Orario del matrimonio
+Marriagetime: Orario del matrimonio
+motherAge: Età della Madre
+Mother age: Età della Madre
+Motherage: Età della Madre
+motherName2: Nome2 della Madre
+Mother name2: Nome2 della Madre
+Mothername2: Nome2 della Madre
+motherName3: Nome2 della Madre
+Mother name3: Nome2 della Madre
+Mothername3: Nome2 della Madre
+motherName: Nome della Madre
+Mother name: Nome della Madre
+Mothername: Nome della Madre
+motherProfession: Professione della Madre
+Mother profession: Professione della Madre
+Motherprofession: Professione della Madre
+motherResidence: Residenza della Madre
+Mother residence: Residenza della Madre
+Motherresidence: Residenza della Madre
+motherStatus: Stato civile della Madre
+Mother status: Stato civile della Madre
+Motherstatus: Stato civile della Madre
+motherSurname: Cognome della Madre
+Mother surname: Cognome della Madre
+Mothersurname: Cognome della Madre
+Notes: Note
+notes: Note
+Parish: Parrocchia
+probandAge: Età del Soggetto
+Proband age: Età del Soggetto
+Probandage: Età del Soggetto
+probandBirthExitus: Esito del Parto
+Proband birth exitus: Esito del Parto
+Probandbirthexitus: Esito del Parto
+probandBirthPlace: Luogo di Nascita
+Proband birth place: Luogo di Nascita
+Probandbirthplace: Luogo di Nascita
+probandName2: Nome2
+Proband name2: Nome2
+Probandname2: Nome2
+probandName3: Nome3
+Proband name3: Nome3
+Probandname3: Nome3
+probandName: Nome
+Proband name: Nome
+Probandname: Nome
+probandProfession: Professione
+Proband profession: Professione
+Probandprofession: Professione
+probandResidenceParish: Parrocchia di Residenza
+Proband residence parish: Parrocchia di Residenza
+Probandresidenceparish: Parrocchia di Residenza
+probandResidence: Residenza
+Proband residence: Residenza
+Probandresidence: Residenza
+probandSex: Sesso
+Proband sex: Sesso
+Probandsex: Sesso
+probandStatus: Stato civile
+Proband status: Stato civile
+Probandstatus: Stato civile
+probandSurname: Cognome
+Proband surname: Cognome
+Probandsurname: Cognome
+registrationDate: Data registrazione
+Registration date: Data registrazione
+Registrationdate: Data registrazione
+residenceParish: Parrocchia di Residenza
+Residence parish: Parrocchia di Residenza
+Residenceparish: Parrocchia di Residenza
+Residence: Residenza
+residence: Residenza
+wifeAge: Età della Sposa
+Wife age: Età della Sposa
+Wifeage: Età della Sposa
+wifeBirthDate: Data Nascita della Sposa
+Wife birth date: Data Nascita della Sposa
+Wifebirthdate: Data Nascita della Sposa
+wifeBirthPlace: Luogo di Nascita della Sposa
+Wife birth place: Luogo di Nascita della Sposa
+Wifebirthplace: Luogo di Nascita della Sposa
+wifeFatherAge: Età del Padre della Sposa
+Wife father age: Età del Padre della Sposa
+Wifefatherage: Età del Padre della Sposa
+wifeFatherName2: Nome2 Padre della Sposa
+Wife father name2: Nome2 Padre della Sposa
+Wifefathername2: Nome2 Padre della Sposa
+wifeFatherName3: Nome3 Padre della Sposa
+Wife father name3: Nome3 Padre della Sposa
+Wifefathername3: Nome3 Padre della Sposa
+wifeFatherName: Nome Padre della Sposa
+Wife father name: Nome Padre della Sposa
+Wifefathername: Nome Padre della Sposa
+wifeFatherProfession: Professione Padre della Sposa
+Wife father profession: Professione Padre della Sposa
+Wifefatherprofession: Professione Padre della Sposa
+wifeFatherStatus: Stato civile Padre della Sposa
+Wife father status: Stato civile Padre della Sposa
+Wifefatherstatus: Stato civile Padre della Sposa
+wifeFatherSurname: Cognome Padre della Sposa
+Wife father surname: Cognome Padre della Sposa
+Wifefathersurname: Cognome Padre della Sposa
+wifeMotherAge: Età Madre della Sposa
+Wife mother age: Età Madre della Sposa
+Wifemotherage: Età Madre della Sposa
+wifeMotherName2: Nome2 Madre della Sposa
+Wife mother name2: Nome2 Madre della Sposa
+Wifemothername2: Nome2 Madre della Sposa
+wifeMotherName3: Nome2 Madre della Sposa
+Wife mother name3: Nome2 Madre della Sposa
+Wifemothername3: Nome2 Madre della Sposa
+wifeMotherName: Nome Madre della Sposa
+Wife mother name: Nome Madre della Sposa
+Wifemothername: Nome Madre della Sposa
+wifeMotherProfession: Professione Madre della Sposa
+Wife mother profession: Professione Madre della Sposa
+Wifemotherprofession: Professione Madre della Sposa
+wifeMotherStatus: Stato civile Madre della Sposa
+Wife mother status: Stato civile Madre della Sposa
+Wifemotherstatus: Stato civile Madre della Sposa
+wifeMotherSurname: Cognome Madre della Sposa
+Wife mother surname: Cognome Madre della Sposa
+Wifemothersurname: Cognome Madre della Sposa
+wifeName2: Nome2 Sposa
+Wife name2: Nome2 Sposa
+Wifename2: Nome2 Sposa
+wifeName3: Nome3 Sposa
+Wife name3: Nome3 Sposa
+Wifename3: Nome3 Sposa
+wifeName: Nome Sposa
+Wife name: Nome Sposa
+Wifename: Nome Sposa
+wifeParish: Parrocchia della Sposa
+Wife parish: Parrocchia della Sposa
+Wifeparish: Parrocchia della Sposa
+wifeProfession: Professione della Sposa
+Wife profession: Professione della Sposa
+Wifeprofession: Professione della Sposa
+wifeResidence: Residenza della Sposa
+Wife residence: Residenza della Sposa
+Wiferesidence: Residenza della Sposa
+wifeStatus: Stato civile della Sposa
+Wife status: Stato civile della Sposa
+Wifestatus: Stato civile della Sposa
+wifeSurname: Cognome della Sposa
+Wife surname: Cognome della Sposa
+Wifesurname: Cognome della Sposa

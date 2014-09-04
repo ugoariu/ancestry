@@ -1,0 +1,99 @@
+imports:
+    - { resource: parameters.yml }
+    - { resource: security.yml }
+
+framework:
+    #esi:             ~
+    translator:      { fallback: "%locale%" }
+    secret:          "%secret%"
+    router:
+        resource: "%kernel.root_dir%/config/routing.yml"
+        strict_requirements: ~
+    form: ~
+    csrf_protection: ~
+    validation:      { enable_annotations: true }
+    templating:
+        engines: ['twig']
+        #assets_version: SomeVersionScheme
+    default_locale:  "%locale%"
+    trusted_proxies: ~
+    session:         ~
+    fragments:       ~
+    http_method_override: true
+
+# Twig Configuration
+twig:
+    debug:            "%kernel.debug%"
+    strict_variables: "%kernel.debug%"
+
+# Assetic Configuration
+assetic:
+    debug:          "%kernel.debug%"
+    use_controller: true
+    bundles:        [ TefNetwebAncestryBundle , MopaBootstrapBundle ]
+    #java: /usr/bin/java
+   # filters:
+        #cssrewrite: ~
+        #closure:
+        #    jar: "%kernel.root_dir%/Resources/java/compiler.jar"
+        #yui_css:
+        #    jar: "%kernel.root_dir%/Resources/java/yuicompressor-2.4.7.jar"
+    assets:
+        font_bootstrap_0:
+            input: '@MopaBootstrapBundle/Resources/public/bootstrap/fonts/glyphicons-halflings-regular.ttf'
+            output:  'css/fonts/glyphicons-halflings-regular.ttf'
+        font_bootstrap_1:
+            input: '@MopaBootstrapBundle/Resources/public/bootstrap/fonts/glyphicons-halflings-regular.eot'
+            output: 'css/fonts/glyphicons-halflings-regular.eot'
+        font_bootstrap_2:
+            input: '@MopaBootstrapBundle/Resources/public/bootstrap/fonts/glyphicons-halflings-regular.svg'
+            output:  'css/fonts/glyphicons-halflings-regular.svg'
+        font_bootstrap_3:
+            input: '@MopaBootstrapBundle/Resources/public/bootstrap/fonts/glyphicons-halflings-regular.woff'
+            output: 'css/fonts/glyphicons-halflings-regular.woff'
+# Doctrine Configuration
+doctrine:
+    dbal:
+        driver:   "%database_driver%"
+        host:     "%database_host%"
+        port:     "%database_port%"
+        dbname:   "%database_name%"
+        user:     "%database_user%"
+        password: "%database_password%"
+        charset:  UTF8
+        # if using pdo_sqlite as your database driver, add the path in parameters.yml
+        # e.g. database_path: "%kernel.root_dir%/data/data.db3"
+        # path:     "%database_path%"
+
+    orm:
+        auto_generate_proxy_classes: "%kernel.debug%"
+        auto_mapping: true
+
+# Swiftmailer Configuration
+swiftmailer:
+    transport: "%mailer_transport%"
+    host:      "%mailer_host%"
+    username:  "%mailer_user%"
+    password:  "%mailer_password%"
+    spool:     { type: memory }
+apy_data_grid:
+    no_data_message: No Data!
+    limits: [15, 30, 50]
+    no_result_message: No Records!
+mopa_bootstrap:
+    menu: ~  
+    navbar:
+        template: MopaBootstrapBundle:Navbar:navbar.html.twig
+    form:
+        templating: MopaBootstrapBundle:Form:fields.html.twig
+        horizontal_label_class:  col-sm-3 control-label
+        horizontal_label_offset_class:  col-sm-offset-3
+        horizontal_input_wrapper_class:  col-sm-9
+        render_fieldset:      false
+        render_collection_item:  true
+        show_legend:          false
+        show_child_legend:    false
+        checkbox_label:       both
+        render_optional_text:  false
+        render_required_asterisk:  true
+        error_type:           ~

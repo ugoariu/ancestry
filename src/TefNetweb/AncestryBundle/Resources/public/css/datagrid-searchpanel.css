@@ -1,0 +1,97 @@
+/*
+copyright owner: the apy/datagrid developers staff
+some changes made by ugo ariu
+*/
+/* Grid Search */
+.searchpanel .grid-search {
+    border: 1px solid #D4E0EE;
+    padding: 10px;
+}
+
+.searchpanel .grid-search label {
+    width: 150px;
+    display: inline-block;
+    text-align: right;
+}
+
+.searchpanel .grid-search select, .searchpanel .grid-search .grid-filter-input-query input {
+    width: 195px;
+}
+
+.searchpanel .grid-search .grid-filter-input-query .grid-filter-input-query-from, .searchpanel .grid-search .grid-filter-input-query .grid-filter-input-query-to, .searchpanel .grid-search .grid-filter-input .grid-filter-operator select, .grid_footer .pager select, .grid_footer .pager input {
+    border-radius: 3px;
+    height: auto;
+    display: inline-block;
+    padding: 3px 6px;
+    font-size: 14px;
+    line-height: 1.45;
+    color: #555555;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.searchpanel .grid-search .grid-filter-input-query .grid-filter-input-query-from:focus, .searchpanel .grid-search .grid-filter-input-query .grid-filter-input-query-to:focus, .searchpanel .grid-search .grid-filter-input .grid-filter-operator select:focus, .grid_footer .pager select:focus, .grid_footer .pager input:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+.searchpanel .grid-search .even {
+    background-color: #FCFDFE;
+}
+
+.searchpanel .grid-search .odd {
+    background-color: #F7F9FC;
+}
+
+.searchpanel .grid-search .grid-filter-input .grid-filter-input-query input {
+    border: 1px solid #D4E0EE;
+}
+
+.searchpanel .grid-search .grid-search-action input.grid-search-submit, .searchpanel .grid-search .grid-search-action input.grid-search-reset {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.searchpanel .grid-search .grid-search-action input.grid-search-submit {
+    color: #ffffff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+.searchpanel .grid-search .grid-search-action input.grid-search-reset {
+    color: #ffffff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+
+.searchpanel .grid-search .grid-filter-input .grid-filter-operator select, .grid_footer .pager select, .grid_footer .pager input {
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+    border: 1px solid #D4E0EE;
+}

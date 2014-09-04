@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+    <entity name="TefNetweb\AncestryBundle\Entity\Ancestry\Marriage">
+        <id name="id" type="integer" column="id">
+            <generator strategy="AUTO"/>
+        </id>
+        <!--husband-->
+        <field name="husbandSurname" type="string" column="HusbandSurname" length="255" nullable="true"/>
+        <field name="husbandName" type="string" column="HusbandName" length="255"/>
+        <field name="husbandName2" type="string" column="HusbandName2" length="255" nullable="true"/>
+        <field name="husbandName3" type="string" column="HusbandName3" length="255" nullable="true"/>
+        <field name="husbandAge" type="smallint" column="HusbandAge" nullable="true"/>
+        <field name="husbandStatus" type="smallint" column="HusbandStatus" nullable="true"/>
+        <field name="husbandBirthDate" type="date" column="HusbandBirthDate"/>
+        <field name="husbandBirthPlace" type="string" column="HusbandBirthPlace" length="255"/>
+        <field name="husbandParish" type="string" column="HusbandBirthParish" length="255" nullable="true"/>
+        <field name="husbandResidence" type="string" column="HusbandResidence" length="255" nullable="true"/>
+        <field name="husbandProfession" type="string" column="HusbandProfession" length="255" nullable="true"/>
+        <!--husband father-->
+        <field name="husbandFatherSurname" type="string" column="HusbandFatherSurname" length="255" nullable="true"/>
+        <field name="husbandFatherName" type="string" column="HusbandFatherName" length="255"/>
+        <field name="husbandFatherName2" type="string" column="HusbandFatherName2" length="255" nullable="true"/>
+        <field name="husbandFatherName3" type="string" column="HusbandFatherName3" length="255" nullable="true"/>
+        <field name="husbandFatherAge" type="smallint" column="HusbandFatherAge" nullable="true"/>
+        <field name="husbandFatherStatus" type="smallint" column="HusbandFatherStatus" nullable="true"/>
+        <field name="husbandFatherProfession" type="string" column="HusbandFatherProfession" length="255"
+               nullable="true"/>
+        <!--husband mother-->
+        <field name="husbandMotherSurname" type="string" column="HusbandMotherSurname" length="255"/>
+        <field name="husbandMotherName" type="string" column="HusbandMotherName" length="255"/>
+        <field name="husbandMotherName2" type="string" column="HusbandMotherName2" length="255" nullable="true"/>
+        <field name="husbandMotherName3" type="string" column="HusbandMotherName3" length="255" nullable="true"/>
+        <field name="husbandMotherAge" type="smallint" column="HusbandMotherAge" nullable="true"/>
+        <field name="husbandMotherStatus" type="smallint" column="HusbandMotherStatus" nullable="true"/>
+        <field name="husbandMotherProfession" type="string" column="HusbandMotherProfession" length="255"
+               nullable="true"/>
+        <!--wife-->
+        <field name="wifeSurname" type="string" column="WifeSurname" length="255"/>
+        <field name="wifeName" type="string" column="WifeName" length="255"/>
+        <field name="wifeName2" type="string" column="WifeName2" length="255" nullable="true"/>
+        <field name="wifeName3" type="string" column="WifeName3" length="255" nullable="true"/>
+        <field name="wifeAge" type="smallint" column="WifeAge" nullable="true"/>
+        <field name="wifeStatus" type="smallint" column="WifeStatus" nullable="true"/>
+        <field name="wifeBirthDate" type="date" column="WifeBirthDate"/>
+        <field name="wifeBirthPlace" type="string" column="WifeBirthPlace" length="255"/>
+        <field name="wifeParish" type="string" column="WifeBirthParish" length="255" nullable="true"/>
+        <field name="wifeResidence" type="string" column="WifeResidence" length="255" nullable="true"/>
+        <field name="wifeProfession" type="string" column="WifeProfession" length="255" nullable="true"/>
+        <!--wife father-->
+        <field name="wifeFatherSurname" type="string" column="WifeFatherSurname" length="255" nullable="true"/>
+        <field name="wifeFatherName" type="string" column="WifeFatherName" length="255"/>
+        <field name="wifeFatherName2" type="string" column="WifeFatherName2" length="255" nullable="true"/>
+        <field name="wifeFatherName3" type="string" column="WifeFatherName3" length="255" nullable="true"/>
+        <field name="wifeFatherAge" type="smallint" column="WifeFatherAge" nullable="true"/>
+        <field name="wifeFatherStatus" type="smallint" column="WifeFatherStatus" nullable="true"/>
+        <field name="wifeFatherProfession" type="string" column="WifeFatherProfession" length="255" nullable="true"/>
+        <!--wife mother-->
+        <field name="wifeMotherSurname" type="string" column="WifeMotherSurname" length="255" nullable="true"/>
+        <field name="wifeMotherName" type="string" column="WifeMotherName" length="255"/>
+        <field name="wifeMotherName2" type="string" column="WifeMotherName2" length="255" nullable="true"/>
+        <field name="wifeMotherName3" type="string" column="WifeMotherName3" length="255" nullable="true"/>
+        <field name="wifeMotherAge" type="smallint" column="WifeMotherAge" nullable="true"/>
+        <field name="wifeMotherStatus" type="smallint" column="WifeMotherStatus" nullable="true"/>
+        <field name="wifeMotherProfession" type="string" column="WifeMotherProfession" length="255" nullable="true"/>
+        <!--dates-->
+        <field name="marriageDate" type="date" column="MarriageDate"/>
+        <field name="marriageTime" type="time" column="MarriageTime" nullable="true"/>
+        <field name="registrationDate" type="date" column="RegistrationDate" nullable="true"/>
+        <!--places-->
+        <field name="marriagePlace" type="string" column="MarriagePlace" length="255"/>
+        <field name="marriageParish" type="string" column="MarriageParish" length="255" nullable="true"/>
+        <field name="notes" type="string" column="Notes" length="255" nullable="true"/>
+    </entity>
+</doctrine-mapping>

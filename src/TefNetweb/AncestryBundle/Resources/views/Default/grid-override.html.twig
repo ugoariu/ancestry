@@ -1,0 +1,3 @@
+{% block grid_pager_totalcount %}
+    {{ '%count% Results' | transchoice(grid.totalCount, {'%count%': grid.totalCount}) ~  ', ' }}
+{% endblock grid_pager_totalcount %}

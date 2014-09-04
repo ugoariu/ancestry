@@ -7,7 +7,15 @@ vendor/*
 */cache/*
 web/uploads/*
 web/bundles/*
-
+!app/cache/.gitkeep
+!app/logs/.gitkeep
+/app/config/parameters.yml
+/web/css
+/web/js
+/web/assetic
+/components/*
+!/components/mopabootstrap
+/bin/
 # Configuration files
 app/config/parameters.ini
 app/config/parameters.yml

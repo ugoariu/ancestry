@@ -1,0 +1,31 @@
+Licence :
+the bundle can be used and distributed under the terms of the gpl2
+
+node.js:
+nodejs is not required because i have precompiled mopabootstrap (for me works better).
+I saved the compiled files in /components
+if you need some security you can use basic authorization
+directly configuring apache or configuring symfony
+
+for now the bundle can be used only for data entry and presentation of collected data
+in other words you go to the central archive of some city and consult old powdered paper registers
+populate the database by hand with the goal to process the data with some other tool.
+
+todo:
+- translate boolean fields for the search panel
+- change the behavior of the search panel for the fields which are mapped to numbers but we remapped to strings (marital status etc)
+  or make those fields strings and do translation from database directly
+- translations other than english and italian (the most part is done because all the strings are already passed to |trans)
+  (refer to the italian translation as a base for other languages because the english part contains only a subset of key phrases.)
+- add helper tables for places, cities, names, professions
+- implement ajax auto-complete for those tables
+- add a locus/resort field where and when needed (is not uncommon for old towns to have resorts/locus registered in documents i guess)
+- delete unneeded fields (in italy multiple names are uncommon could it be possible to have say a person with 4 names?)
+- add other fields? delete some?
+- investigate how to connect or export data for other programs to process (genealogy graph software, gramps)
+    maybe apy/datagrid export capabilities are ok for the task
+- data export (csv,xml,sqlite format, microsoft access ???)
+- characterize collected data by city or parish because at the moment the only possible thing is to change the name of the configured database
+    so if you collect data from saint Paul parish you name the database saint_paul generate the schema for it and use it
+    if one has many archives could be difficult to change the db name every time
+- some statistics? some bar or circle graph?

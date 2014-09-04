@@ -1,0 +1,284 @@
+{% extends 'TefNetwebAncestryBundle:Default:index.html.twig' %}
+
+    {% block  content_content -%}
+        {% block headline %}
+            {{ 'Ancestry Marriage show'|trans }}
+        {% endblock headline %}
+
+        <ul class="record_actions">
+            <li>
+                <a href="{{ path('marriage') }}">
+                    {{ 'Back to the list'|trans }}
+                </a>
+            </li>
+            <li>
+                <a href="{{ path('marriage_edit', { 'id': entity.id }) }}">
+                    {{ 'Edit'|trans }}
+                </a>
+            </li>
+        </ul>
+
+        <table class="record_properties">
+        <tbody>
+        <tr>
+            <th>  {{ 'Husbandsurname'|trans }}</th>
+            <td>{{ entity.husbandSurname }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Husbandname'|trans }}</th>
+            <td>{{ entity.husbandName }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Husbandname2'|trans }}</th>
+            <td>{{ entity.husbandName2 }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Husbandname3'|trans }}</th>
+            <td>{{ entity.husbandName3 }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Husbandage'|trans }}</th>
+            <td>{{ entity.husbandAge }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Husbandstatus'|trans }}</th>
+            <td>{{ trans_entity.husbandStatus }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Husbandbirthdate'|trans }}</th>
+            <td>
+                {% if entity.husbandBirthDate != null %}
+                    {{ entity.husbandBirthDate|date('Y-m-d') }}
+                {% endif %}
+            </td>
+        </tr>
+        <tr>
+            <th>  {{ 'Husbandbirthplace'|trans }}</th>
+            <td>{{ entity.husbandBirthPlace }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Husbandparish'|trans }}</th>
+            <td>{{ entity.husbandParish }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Husbandresidence'|trans }}</th>
+            <td>{{ entity.husbandResidence }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Husbandprofession'|trans }}</th>
+            <td>{{ entity.husbandProfession }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Husbandfathersurname'|trans }}</th>
+            <td>{{ entity.husbandFatherSurname }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Husbandfathername'|trans }}</th>
+            <td>{{ entity.husbandFatherName }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Husbandfathername2'|trans }}</th>
+            <td>{{ entity.husbandFatherName2 }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Husbandfathername3'|trans }}</th>
+            <td>{{ entity.husbandFatherName3 }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Husbandfatherage'|trans }}</th>
+            <td>{{ entity.husbandFatherAge }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Husbandfatherstatus'|trans }}</th>
+            <td>{{ trans_entity.husbandFatherStatus }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Husbandfatherprofession'|trans }}</th>
+            <td>{{ entity.husbandFatherProfession }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Husbandmothersurname'|trans }}</th>
+            <td>{{ entity.husbandMotherSurname }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Husbandmothername'|trans }}</th>
+            <td>{{ entity.husbandMotherName }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Husbandmothername2'|trans }}</th>
+            <td>{{ entity.husbandMotherName2 }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Husbandmothername3'|trans }}</th>
+            <td>{{ entity.husbandMotherName3 }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Husbandmotherage'|trans }}</th>
+            <td>{{ entity.husbandMotherAge }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Husbandmotherstatus'|trans }}</th>
+            <td>{{ trans_entity.husbandMotherStatus }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Husbandmotherprofession'|trans }}</th>
+            <td>{{ entity.husbandMotherProfession }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Wifesurname'|trans }}</th>
+            <td>{{ entity.wifeSurname }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Wifename'|trans }}</th>
+            <td>{{ entity.wifeName }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Wifename2'|trans }}</th>
+            <td>{{ entity.wifeName2 }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Wifename3'|trans }}</th>
+            <td>{{ entity.wifeName3 }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Wifeage'|trans }}</th>
+            <td>{{ entity.wifeAge }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Wifestatus'|trans }}</th>
+            <td>{{ trans_entity.wifeStatus }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Wifebirthdate'|trans }}</th>
+            <td>
+                {% if entity.wifeBirthDate != null %}
+                    {{ entity.wifeBirthDate|date('Y-m-d') }}
+                {% endif %}
+            </td>
+        </tr>
+        <tr>
+            <th>  {{ 'Wifebirthplace'|trans }}</th>
+            <td>{{ entity.wifeBirthPlace }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Wifeparish'|trans }}</th>
+            <td>{{ entity.wifeParish }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Wiferesidence'|trans }}</th>
+            <td>{{ entity.wifeResidence }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Wifeprofession'|trans }}</th>
+            <td>{{ entity.wifeProfession }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Wifefathersurname'|trans }}</th>
+            <td>{{ entity.wifeFatherSurname }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Wifefathername'|trans }}</th>
+            <td>{{ entity.wifeFatherName }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Wifefathername2'|trans }}</th>
+            <td>{{ entity.wifeFatherName2 }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Wifefathername3'|trans }}</th>
+            <td>{{ entity.wifeFatherName3 }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Wifefatherage'|trans }}</th>
+            <td>{{ entity.wifeFatherAge }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Wifefatherstatus'|trans }}</th>
+            <td>{{ trans_entity.wifeFatherStatus }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Wifefatherprofession'|trans }}</th>
+            <td>{{ entity.wifeFatherProfession }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Wifemothersurname'|trans }}</th>
+            <td>{{ entity.wifeMotherSurname }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Wifemothername'|trans }}</th>
+            <td>{{ entity.wifeMotherName }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Wifemothername2'|trans }}</th>
+            <td>{{ entity.wifeMotherName2 }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Wifemothername3'|trans }}</th>
+            <td>{{ entity.wifeMotherName3 }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Wifemotherage'|trans }}</th>
+            <td>{{ entity.wifeMotherAge }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Wifemotherstatus'|trans }}</th>
+            <td>{{ trans_entity.wifeMotherStatus }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Wifemotherprofession'|trans }}</th>
+            <td>{{ entity.wifeMotherProfession }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Marriagedate'|trans }}</th>
+            <td>
+                {% if entity.marriageDate != null %}
+                    {{ entity.marriageDate|date('Y-m-d') }}
+                {% endif %}
+            </td>
+        </tr>
+        <tr>
+            <th>  {{ 'Marriagetime'|trans }}</th>
+            <td>
+                {% if entity.marriageTime != null %}
+                    {{ entity.marriageTime|date('H:i') }}
+                {% endif %}
+            </td>
+        </tr>
+        <tr>
+            <th>  {{ 'Registrationdate'|trans }}</th>
+            <td>
+                {% if entity.registrationDate != null %}
+                    {{ entity.registrationDate|date('Y-m-d') }}
+                {% endif %}
+            </td>
+        </tr>
+        <tr>
+            <th>  {{ 'Marriageplace'|trans }}</th>
+            <td>{{ entity.marriagePlace }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Marriageparish'|trans }}</th>
+            <td>{{ entity.marriageParish }}</td>
+        </tr>
+        <tr>
+            <th>  {{ 'Notes'|trans }}</th>
+            <td>{{ entity.notes }}</td>
+        </tr>
+        </tbody>
+        </table>
+
+        <ul class="record_actions">
+            <li>
+                <a href="{{ path('marriage') }}">
+                    {{ 'Back to the list'|trans }}
+                </a>
+            </li>
+            <li>
+                <a href="{{ path('marriage_edit', { 'id': entity.id }) }}">
+                    {{ 'Edit'|trans }}
+                </a>
+            </li>
+            <li>{{ form(delete_form) }}</li>
+        </ul>
+    {% endblock %}
+

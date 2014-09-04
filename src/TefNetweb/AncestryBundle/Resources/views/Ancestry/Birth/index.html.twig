@@ -1,0 +1,34 @@
+{% extends 'TefNetwebAncestryBundle:Default:index.html.twig' %}
+
+     {% block  content_content -%}
+         {% block headline %}
+             {{ 'Ancestry Birth list'|trans }}
+         {% endblock headline %}
+         <ul class="record_actions">
+             <li>
+                 <a href="{{ path('birth_new') }}">
+                     {{ 'Create a new entry'|trans }} </a>
+             </li>
+         </ul>
+         <br/>
+         <ul class="nav nav-tabs" role="tablist" id="tab1">
+             <li class="active"><a href="#lista" role="tab" data-toggle="tab">{{ 'List' |trans }}</a></li>
+             <li><a href="#cerca" role="tab" data-toggle="tab">{{ 'Search' |trans }}</a></li>
+         </ul>
+         <div class="tab-content" id="ctab1">
+             <div class="tab-pane active" id="lista">
+                 {{ grid(grid, _self) }} {% block grid_filters %}{% endblock %}
+             </div>
+             <div class="tab-pane" id="cerca">
+                 <div class="searchpanel"> {{ grid_search(grid) }}</div>
+             </div>
+         </div>
+         <br/>
+         <br/>
+     {% endblock %}
+    {% block headjavascripts %}
+        {{ parent() }}
+    {% endblock headjavascripts %}
+     {% block grid_pager_totalcount %}
+         {% embed 'TefNetwebAncestryBundle:Default:grid-override.html.twig' with {grid: grid} %}{% endembed %}
+     {% endblock grid_pager_totalcount %}

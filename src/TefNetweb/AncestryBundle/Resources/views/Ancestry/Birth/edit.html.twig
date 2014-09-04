@@ -1,0 +1,35 @@
+{% extends 'TefNetwebAncestryBundle:Default:index.html.twig' %}
+
+    {% block  content_content -%}
+        {% block headline %}
+            {{ 'Ancestry Birth edit'|trans }}
+        {% endblock headline %}
+        <ul class="record_actions">
+            <li>
+                <a href="{{ path('birth') }}">
+                    {{ 'Back to the list'|trans }}
+                </a>
+            </li>
+            <li>
+                <a href="{{ path('birth_show', { 'id': entity.id }) }}">
+                    {{ 'Show'|trans }}
+                </a>
+            </li>
+        </ul>
+
+        {{ form(edit_form) }}
+
+        <ul class="record_actions">
+            <li>
+                <a href="{{ path('birth') }}">
+                    {{ 'Back to the list'|trans }}
+                </a>
+            </li>
+            <li>
+                <a href="{{ path('birth_show', { 'id': entity.id }) }}">
+                    {{ 'Show'|trans }}
+                </a>
+            </li>
+            <li>{{ form(delete_form) }}</li>
+        </ul>
+    {% endblock %}

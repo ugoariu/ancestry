@@ -1,0 +1,38 @@
+table.records_list {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 0px;
+}
+
+table.records_list th, table.records_list td, table.record_properties td {
+    border: 1px solid;
+    padding: 5px;
+}
+
+ul.record_actions li {
+    margin: 3px;
+    padding: 2px;
+    list-style-type: none;
+    list-style-position: inside;
+    list-style-image: none;
+    width: 16.66666667%;
+}
+
+.rounded, .record_actions li a {
+    display: block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    background-color: #E4F0FE;
+    border: 1px solid #FCFDFE;
+    border-radius: 4px;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}

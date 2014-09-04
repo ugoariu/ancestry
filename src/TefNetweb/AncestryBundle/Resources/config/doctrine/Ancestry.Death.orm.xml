@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+    <entity name="TefNetweb\AncestryBundle\Entity\Ancestry\Death">
+        <id name="id" type="integer" column="id">
+            <generator strategy="AUTO"/>
+        </id>
+        <!--dates-->
+        <field name="deathDate" type="date" column="DeathDate"/>
+        <field name="deathTime" type="time" column="DeathTime" nullable="true"/>
+        <field name="registrationDate" type="date" column="RegistrationDate" nullable="true"/>
+        <field name="DeathPlace" type="string" column="probandDeathPlace" length="255" nullable="true"/>
+        <field name="Parish" type="string" column="Parish" length="255" nullable="true"/>
+        <!--proband-->
+        <field name="probandSurname" type="string" column="ProbandSurname" length="255" nullable="true"/>
+        <field name="probandName" type="string" column="ProbandName" length="255"/>
+        <field name="probandName2" type="string" column="ProbandName2" length="255" nullable="true"/>
+        <field name="probandName3" type="string" column="ProbandName3" length="255" nullable="true"/>
+        <field name="probandSex" type="string" column="ProbandSex" length="1"/>
+        <field name="probandStatus" type="smallint" column="ProbandStatus" nullable="true"/>
+        <field name="probandAge" type="smallint" column="ProbandAge" nullable="true"/>
+        <field name="birthDate" type="date" column="BirthDate" nullable="true"/>
+        <field name="probandBirthPlace" type="string" column="probandBirthPlace" length="255" nullable="true"/>
+        <field name="probandResidence" type="string" column="probandResidence" length="255" nullable="true"/>
+        <field name="probandResidenceParish" type="string" column="ResidenceParish" length="255" nullable="true"/>
+        <field name="probandProfession" type="string" column="ProbandProfession" length="255" nullable="true"/>
+        <!--father-->
+        <field name="fatherSurname" type="string" column="FatherSurname" length="255" nullable="true"/>
+        <field name="fatherName" type="string" column="FatherName" length="255" nullable="true"/>
+        <field name="fatherName2" type="string" column="FatherName2" length="255" nullable="true"/>
+        <field name="fatherName3" type="string" column="FatherName3" length="255" nullable="true"/>
+        <field name="IsFatherDead" type="boolean" column="IsFatherDead" nullable="true"/>
+        <field name="fatherAge" type="smallint" column="FatherAge" nullable="true"/>
+        <field name="fatherStatus" type="smallint" column="FatherStatus" nullable="true"/>
+        <field name="fatherResidence" type="string" column="FatherResidence" length="255" nullable="true"/>
+        <field name="fatherProfession" type="string" column="FatherProfession" length="255" nullable="true"/>
+        <!--mother-->
+        <field name="motherSurname" type="string" column="MotherSurname" length="255" nullable="true"/>
+        <field name="motherName" type="string" column="MotherName" length="255" nullable="true"/>
+        <field name="motherName2" type="string" column="MotherName2" length="255" nullable="true"/>
+        <field name="motherName3" type="string" column="MotherName3" length="255" nullable="true"/>
+        <field name="IsMotherDead" type="boolean" column="IsMotherDead" nullable="true"/>
+        <field name="motherAge" type="smallint" column="MotherAge" nullable="true"/>
+        <field name="motherStatus" type="smallint" column="MotherStatus" nullable="true"/>
+        <field name="motherResidence" type="string" column="MotherResidence" length="255" nullable="true"/>
+        <field name="motherProfession" type="string" column="MotherProfession" length="255" nullable="true"/>
+        <field name="notes" type="string" column="Notes" length="255" nullable="true"/>
+    </entity>
+</doctrine-mapping>

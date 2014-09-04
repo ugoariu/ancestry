@@ -1,0 +1,200 @@
+{% extends 'TefNetwebAncestryBundle:Default:index.html.twig' %}
+
+    {% block  content_content -%}
+        {% block headline %}
+            {{ 'Ancestry Death show'|trans }}
+        {% endblock headline %}
+
+        <ul class="record_actions">
+            <li>
+                <a href="{{ path('death') }}">
+                    {{ 'Back to the list'|trans }}
+                </a>
+            </li>
+            <li>
+                <a href="{{ path('death_edit', { 'id': entity.id }) }}">
+                    {{ 'Edit'|trans }}
+                </a>
+            </li>
+        </ul>
+
+        <table class="record_properties">
+            <tbody>
+            <tr>
+                <th>  {{ 'Deathdate'|trans }}</th>
+                <td>
+                    {% if entity.deathDate != null %}
+                        {{ entity.deathDate|date('Y-m-d') }}
+                    {% endif %}
+                </td>
+            </tr>
+            <tr>
+                <th>  {{ 'Deathtime'|trans }}</th>
+                <td>
+                    {% if entity.deathTime != null %}
+                        {{ entity.deathTime|date('H:i') }}
+                    {% endif %}
+                </td>
+            </tr>
+            <tr>
+                <th>  {{ 'Registrationdate'|trans }}</th>
+                <td>
+                    {% if entity.registrationDate != null %}
+                        {{ entity.registrationDate|date('Y-m-d') }}
+                    {% endif %}
+                </td>
+            </tr>
+            <tr>
+                <th>  {{ 'Deathplace'|trans }}</th>
+                <td>{{ entity.DeathPlace }}</td>
+            </tr>
+            <tr>
+                <th>  {{ 'Parish'|trans }}</th>
+                <td>{{ entity.Parish }}</td>
+            </tr>
+            <tr>
+                <th>  {{ 'Probandsurname'|trans }}</th>
+                <td>{{ entity.probandSurname }}</td>
+            </tr>
+            <tr>
+                <th>  {{ 'Probandname'|trans }}</th>
+                <td>{{ entity.probandName }}</td>
+            </tr>
+            <tr>
+                <th>  {{ 'Probandname2'|trans }}</th>
+                <td>{{ entity.probandName2 }}</td>
+            </tr>
+            <tr>
+                <th>  {{ 'Probandname3'|trans }}</th>
+                <td>{{ entity.probandName3 }}</td>
+            </tr>
+            <tr>
+                <th>  {{ 'Probandsex'|trans }}</th>
+                <td>{{ trans_entity.probandSex }}</td>
+            </tr>
+            <tr>
+                <th>  {{ 'Probandstatus'|trans }}</th>
+                <td>{{ trans_entity.probandStatus }}</td>
+            </tr>
+            <tr>
+                <th>  {{ 'Probandage'|trans }}</th>
+                <td>{{ entity.probandAge }}</td>
+            </tr>
+            <tr>
+                <th>  {{ 'Birthdate'|trans }}</th>
+                <td>
+                    {% if entity.birthDate != null %}
+                        {{ entity.birthDate|date('Y-m-d') }}
+                    {% endif %}
+                </td>
+            </tr>
+            <tr>
+                <th>  {{ 'Probandbirthplace'|trans }}</th>
+                <td>{{ entity.probandBirthPlace }}</td>
+            </tr>
+            <tr>
+                <th>  {{ 'Probandresidence'|trans }}</th>
+                <td>{{ entity.probandResidence }}</td>
+            </tr>
+            <tr>
+                <th>  {{ 'Probandresidenceparish'|trans }}</th>
+                <td>{{ entity.probandResidenceParish }}</td>
+            </tr>
+            <tr>
+                <th>  {{ 'Probandprofession'|trans }}</th>
+                <td>{{ entity.probandProfession }}</td>
+            </tr>
+            <tr>
+                <th>  {{ 'Fathersurname'|trans }}</th>
+                <td>{{ entity.fatherSurname }}</td>
+            </tr>
+            <tr>
+                <th>  {{ 'Fathername'|trans }}</th>
+                <td>{{ entity.fatherName }}</td>
+            </tr>
+            <tr>
+                <th>  {{ 'Fathername2'|trans }}</th>
+                <td>{{ entity.fatherName2 }}</td>
+            </tr>
+            <tr>
+                <th>  {{ 'Fathername3'|trans }}</th>
+                <td>{{ entity.fatherName3 }}</td>
+            </tr>
+            <tr>
+                <th>  {{ 'Isfatherdead'|trans }}</th>
+                <td>{{ trans_entity.IsFatherDead }}</td>
+            </tr>
+            <tr>
+                <th>  {{ 'Fatherage'|trans }}</th>
+                <td>{{ entity.fatherAge }}</td>
+            </tr>
+            <tr>
+                <th>  {{ 'Fatherstatus'|trans }}</th>
+                <td>{{ trans_entity.fatherStatus }}</td>
+            </tr>
+            <tr>
+                <th>  {{ 'Fatherresidence'|trans }}</th>
+                <td>{{ entity.fatherResidence }}</td>
+            </tr>
+            <tr>
+                <th>  {{ 'Fatherprofession'|trans }}</th>
+                <td>{{ entity.fatherProfession }}</td>
+            </tr>
+            <tr>
+                <th>  {{ 'Mothersurname'|trans }}</th>
+                <td>{{ entity.motherSurname }}</td>
+            </tr>
+            <tr>
+                <th>  {{ 'Mothername'|trans }}</th>
+                <td>{{ entity.motherName }}</td>
+            </tr>
+            <tr>
+                <th>  {{ 'Mothername2'|trans }}</th>
+                <td>{{ entity.motherName2 }}</td>
+            </tr>
+            <tr>
+                <th>  {{ 'Mothername3'|trans }}</th>
+                <td>{{ entity.motherName3 }}</td>
+            </tr>
+            <tr>
+                <th>  {{ 'Ismotherdead'|trans }}</th>
+                <td>{{ trans_entity.IsMotherDead }}</td>
+            </tr>
+            <tr>
+                <th>  {{ 'Motherage'|trans }}</th>
+                <td>{{ entity.motherAge }}</td>
+            </tr>
+            <tr>
+                <th>  {{ 'Motherstatus'|trans }}</th>
+                <td>{{ trans_entity.motherStatus }}</td>
+            </tr>
+            <tr>
+                <th>  {{ 'Motherresidence'|trans }}</th>
+                <td>{{ entity.motherResidence }}</td>
+            </tr>
+            <tr>
+                <th>  {{ 'Motherprofession'|trans }}</th>
+                <td>{{ entity.motherProfession }}</td>
+            </tr>
+            <tr>
+                <th>  {{ 'Notes'|trans }}</th>
+                <td>{{ entity.notes }}</td>
+            </tr>
+            </tbody>
+        </table>
+
+        <ul class="record_actions">
+            <li>
+                <a href="{{ path('death') }}">
+                    {{ 'Back to the list'|trans }}
+                </a>
+            </li>
+            <li>
+                <a href="{{ path('death_edit', { 'id': entity.id }) }}">
+                    {{ 'Edit'|trans }}
+                </a>
+            </li>
+            <li>{{ form(delete_form) }}</li>
+        </ul>
+    {% endblock %}
+

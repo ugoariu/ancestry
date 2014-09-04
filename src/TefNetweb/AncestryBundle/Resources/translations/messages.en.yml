@@ -1,0 +1,325 @@
+Back to the list:  Back to the list
+list: List
+List: List
+show: Show
+Show: Show
+edit: Edit
+Edit: Edit
+delete: Delete
+Delete: Delete
+Create a new entry: Create a new entry
+Actions: Actions
+creation: creation
+update: Update
+Update: Update
+Create: Create
+Back: Back
+Reset: Reset
+Page: Page
+Search: Search
+(optional): (optional)
+(required): (required)
+Bad credentials: Bad credentials
+Ancestry Birth list: Ancestry Birth list
+Ancestry Birth show: Ancestry Birth show
+Ancestry Birth creation: Ancestry Birth creation
+Ancestry Birth edit: Ancestry Birth edit
+Ancestry Death edit: Ancestry Death edit
+Ancestry Death list: Ancestry Death list
+Ancestry Death creation: Ancestry Death creation
+Ancestry Death show: Ancestry Death show
+Ancestry Marriage edit: Ancestry Marriage edit
+Ancestry Marriage list: Ancestry Marriage list
+Ancestry Marriage creation: Ancestry Marriage creation
+Ancestry Marriage show: Ancestry Marriage show
+Ancestry Marriage: Ancestry Marriage
+Ancestry Birth: Ancestry Birth
+Ancestry Death: Ancestry Death
+#menu
+Births: Births
+Deaths: Deaths
+Marriages: Marriages
+#
+birthDate: Birth date
+Birth date: Birth date
+Birthdate: Birth date
+birthParish: Birth parish
+Birth parish: Birth parish
+Birthparish: Birth parish
+birthPlace: Birth place
+Birth place: Birth place
+Birthplace: Birth place
+birthTime: Birth time
+Birth time: Birth time
+Birthtime: Birth time
+deathDate: Death date
+Death date: Death date
+Deathdate: Death date
+DeathPlace: Death place
+Death place: Death place
+Deathplace: Death place
+deathTime: Death time
+Death time: Death time
+Deathtime: Death time
+fatherAge: Father age
+Father age: Father age
+Fatherage: Father age
+fatherName2: Father name2
+Father name2: Father name2
+Fathername2: Father name2
+fatherName3: Father name3
+Father name3: Father name3
+Fathername3: Father name
+fatherName: Father name
+Father name: Father name
+Fathername: Father name
+fatherProfession: Father profession
+Father profession: Father profession
+Fatherprofession: Father profession
+fatherResidence: Father residence
+Father residence: Father residence
+Fatherresidence: Father residence
+fatherStatus: Father status
+Father status: Father status
+Fatherstatus: Father status
+fatherSurname: Father surname
+Father surname: Father surname
+Fathersurname: Father surname
+husbandAge: Husband age
+Husband age: Husband age
+Husbandage: Husband age
+husbandBirthDate: Husband Birth Date
+Husband birth date: Husband Birth Date
+Husbandbirthdate: Husband Birth Date
+husbandBirthPlace: Husband birth place
+Husband birth place: Husband birth place
+Husbandbirthplace: Husband birth place
+husbandFatherAge: Husband father age
+Husband father age: Husband father age
+Husbandfatherage: Husband father age
+husbandFatherName2: Husband father name2
+Husband father name2: Husband father name2
+Husbandfathername2: Husband father name2
+husbandFatherName3: Husband father name3
+Husband father name3: Husband father name3
+Husbandfathername3: Husband father name3
+husbandFatherName: Husband father name
+Husband father name: Husband father name
+Husbandfathername: Husband father name
+husbandFatherProfession: Husband father profession
+Husband father profession: Husband father profession
+Husbandfatherprofession: Husband father profession
+husbandFatherStatus: Husband father status
+Husband father status: Husband father status
+Husbandfatherstatus: Husband father status
+husbandFatherSurname: Husband father surname
+Husband father surname: Husband father surname
+Husbandfathersurname: Husband father surname
+husbandMotherAge: Husband mother age
+Husband mother age: Husband mother age
+Husbandmotherage: Husband mother age
+husbandMotherName2: Husband mother name2
+Husband mother name2: Husband mother name2
+Husbandmothername2: Husband mother name2
+husbandMotherName3: Husband mother name3
+Husband mother name3: Husband mother name3
+Husbandmothername3: Husband mother name3
+husbandMotherName: Husband mother name
+Husband mother name: Husband mother name
+Husbandmothername: Husband mother name
+husbandMotherProfession: Husband mother profession
+Husband mother profession: Husband mother profession
+Husbandmotherprofession: Husband mother profession
+husbandMotherStatus: Husband mother status
+Husband mother status: Husband mother status
+Husbandmotherstatus: Husband mother status
+husbandMotherSurname: Husband mother surname
+Husband mother surname: Husband mother surname
+Husbandmothersurname: Husband mother surname
+husbandName2: Husband name2
+Husband name2: Husband name2
+Husbandname2: Husband name2
+husbandName3: Husband name3
+Husband name3: Husband name3
+Husbandname3: Husband name3
+husbandName: Husband name
+Husband name: Husband name
+Husbandname: Husband name
+husbandParish: Husband parish
+Husband parish: Husband parish
+Husbandparish: Husband parish
+husbandProfession: Husband profession
+Husband profession: Husband profession
+Husbandprofession: Husband profession
+husbandResidence: Husband residence
+Husband residence: Husband residence
+Husbandresidence: Husband residence
+husbandStatus: Husband status
+Husband status: Husband status
+Husbandstatus: Husband status
+husbandSurname: Husband surname
+Husband surname: Husband surname
+Husbandsurname: Husband surname
+Id: Id
+IsFatherDead: Is father dead
+Is father dead: Is father dead
+Isfatherdead: Is father dead
+IsMotherDead: Is mother dead
+Is mother dead: Is mother dead
+Ismotherdead: Is mother dead
+marriageDate: Marriage date
+Marriage date: Marriage date
+Marriagedate: Marriage date
+marriageParish: Marriage parish
+Marriage parish: Marriage parish
+Marriageparish: Marriage parish
+marriagePlace: Marriage place
+Marriage place: Marriage place
+Marriageplace: Marriage place
+marriageTime: Marriage time
+Marriage time: Marriage time
+Marriagetime: Marriage time
+motherAge: Mother age
+Mother age: Mother age
+Motherage: Mother age
+motherName2: Mother name2
+Mother name2: Mother name2
+Mothername2: Mother name2
+motherName3: Mother name3
+Mother name3: Mother name3
+Mothername3: Mother name3
+motherName: Mother name
+Mother name: Mother name
+Mothername: Mother name
+motherProfession: Mother profession
+Mother profession: Mother profession
+Motherprofession: Mother profession
+motherResidence: Mother residence
+Mother residence: Mother residence
+Motherresidence: Mother residence
+motherStatus: Mother status
+Mother status: Mother status
+Motherstatus: Mother status
+motherSurname: Mother surname
+Mother surname: Mother surname
+Mothersurname: Mother surname
+Notes: Notes
+Parish: Parish
+probandAge: Proband age
+Proband age: Proband age
+Probandage: Proband age
+probandBirthExitus: Proband birth exitus
+Proband birth exitus: Proband birth exitus
+Probandbirthexitus: Proband birth exitus
+probandBirthPlace: Proband birth place
+Proband birth place: Proband birth place
+Probandbirthplace: Proband birth place
+probandName2: Proband name2
+Proband name2: Proband name2
+Probandname2: Proband name2
+probandName3: Proband name3
+Proband name3: Proband name3
+Probandname3: Proband name3
+probandName: Proband name
+Proband name: Proband name
+Probandname: Proband name
+probandProfession: probandProfession
+Proband profession: probandProfession
+Probandprofession: probandProfession
+probandResidenceParish: Proband residence parish
+Proband residence parish: Proband residence parish
+Probandresidenceparish: Proband residence parish
+probandResidence: Proband residence
+Proband residence: Proband residence
+Probandresidence: Proband residence
+probandSex: Proband sex
+Proband sex: Proband sex
+Probandsex: Proband sex
+probandStatus: Proband status
+Proband status: Proband status
+Probandstatus: Proband status
+probandSurname: Proband surname
+Proband surname: Proband surname
+Probandsurname: Proband surname
+registrationDate: Registration date
+Registration date: Registration date
+Registrationdate: Registration date
+residenceParish: Residence parish
+Residence parish: Residence parish
+Residenceparish: Residence parish
+Residence: Residence
+wifeAge: Wife age
+Wife age: Wife age
+Wifeage: Wife age
+wifeBirthDate: Wife birth date
+Wife birth date: Wife birth date
+Wifebirthdate: Wife birth date
+wifeBirthPlace: Wife birth place
+Wife birth place: Wife birth place
+Wifebirthplace: Wife birth place
+wifeFatherAge: Wife father age
+Wife father age: Wife father age
+Wifefatherage: Wife father age
+wifeFatherName2: Wife father name2
+Wife father name2: Wife father name2
+Wifefathername2: Wife father name2
+wifeFatherName3: Wife father name3
+Wife father name3: Wife father name3
+Wifefathername3: Wife father name3
+wifeFatherName: Wife father name
+Wife father name: Wife father name
+Wifefathername: Wife father name
+wifeFatherProfession: Wife father profession
+Wife father profession: Wife father profession
+Wifefatherprofession: Wife father profession
+wifeFatherStatus: Wife father status
+Wife father status: Wife father status
+Wifefatherstatus: Wife father status
+wifeFatherSurname: Wife father surname
+Wife father surname: Wife father surname
+Wifefathersurname: Wife father surname
+wifeMotherAge: Wife mother age
+Wife mother age: Wife mother age
+Wifemotherage: Wife mother age
+wifeMotherName2: Wife mother name2
+Wife mother name2: Wife mother name2
+Wifemothername2: Wife mother name2
+wifeMotherName3: Wife mother name3
+Wife mother name3: Wife mother name3
+Wifemothername3: Wife mother name3
+wifeMotherName: Wife mother name
+Wife mother name: Wife mother name
+Wifemothername: Wife mother name
+wifeMotherProfession: Wife mother profession
+Wife mother profession: Wife mother profession
+Wifemotherprofession: Wife mother profession
+wifeMotherStatus: Wife mother status
+Wife mother status: Wife mother status
+Wifemotherstatus: Wife mother status
+wifeMotherSurname: Wife mother surname
+Wife mother surname: Wife mother surname
+Wifemothersurname: Wife mother surname
+wifeName2: Wife name2
+Wife name2: Wife name2
+Wifename2: Wife name2
+wifeName3: Wife name3
+Wife name3: Wife name3
+Wifename3: Wife name3
+wifeName: Wife name
+Wife name: Wife name
+Wifename: Wife name
+wifeParish: Wife parish
+Wife parish: Wife parish
+Wifeparish: Wife parish
+wifeProfession: Wife profession
+Wife profession: Wife profession
+Wifeprofession: Wife profession
+wifeResidence: Wife residence
+Wife residence: Wife residence
+Wiferesidence: Wife residence
+wifeStatus: Wife status
+Wife status: Wife status
+Wifestatus: Wife status
+wifeSurname: Wife surname
+Wife surname: Wife surname
+Wifesurname: Wife surname
